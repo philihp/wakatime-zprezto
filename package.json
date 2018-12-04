@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "DEST=~/.zprezto/modules/wakatime mkdir -p \"$DEST\" && ln -sf \"$PWD/init.zsh\" \"$DEST/init.zsh\""
+    "postinstall": "mkdir -p \"$HOME/.zprezto/modules/wakatime\" && ln -sf \"$PWD/init.zsh\" \"$HOME/.zprezto/modules/wakatime/init.zsh\""
   },
   "files": [
     "init.zsh"
