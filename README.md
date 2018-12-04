@@ -16,5 +16,4 @@ zstyle ':prezto:load' pmodule \
   'editor' \
   ...
   'wakatime'
-```
 ````
